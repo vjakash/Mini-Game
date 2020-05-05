@@ -1,0 +1,160 @@
+body{
+}
+#hangHome{
+	border:none;
+	color:white;
+	background-color: #F39C12;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 15px;
+/*	margin-top: 20px;
+	margin-left: 170px;*/
+}
+/*.mainPageContainer{
+	width: 100%;
+	height: 1000px;
+	background-image: url(bg.jpg);
+}*/
+body{
+	background-image: url(bg.jpg);
+}
+.container{
+	width: 80%;
+/*	margin-top:0px;
+	margin-left: 10%;
+	margin-right: 10%;*/
+	height: 900px;
+/*	border: 2px solid black;
+*/}
+.header{
+	width: 100%;
+	height: 300px;
+/*	border: 2px solid black;
+*/
+}
+.headerLeft{
+	width: 30%;
+	height: 100%;
+	float: left;
+/*	margin-top: 30px;
+*//*	border:2px solid black;
+*/	text-align: center;
+}
+.headerMiddle{
+	width: 45%;
+	height: 100%;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+/*border: 2px solid;
+*/}
+.level{
+/*	margin-top: -3px;
+*/	text-align: center;
+
+}
+.notifi{
+	text-align: center;
+}
+.headerRight{
+	width: 20%;
+	height: 100%;
+	float: right;
+/*	border:2px solid black;
+*/	text-align: right;
+	font-size:25px;
+/*	margin-right: 30px;
+*/}
+.hint{
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 15px;
+	border: none;
+	color: white;
+	background-color: #F39C12; 
+}
+
+.content{
+	width: 100%;
+	height: 100%;
+/*	margin-top: 30px;
+*//*	border:2px solid black;
+*/}
+.man{
+	width: 29%;
+	height: 100%;
+	float: left;
+/*	margin-top: 50px;
+*//*	border:2px solid black;
+*/}
+.game{
+	width: 70%;
+	height: 100%;
+	float: right;
+/*	margin-top: -100px;
+*//*	border:2px solid black;
+*/}
+img{
+	width: 100%;
+	height: 100%;
+/*	margin-top: -100px;
+*/}
+.placeHolder{
+	width: 100%;
+	height: 100px;
+/*	border:2px solid black;
+*/}
+.letters{
+	width: 100%;
+	height: 500px;
+/*	border:2px solid black;
+*/}
+.gamebtn{
+	width: 14%;
+	height: 10%;
+	border-radius: 50px;
+	font-size: 30px;
+	color: white;
+	background-color: #3498DB;
+	border: none;
+	padding: 5px;
+/*	margin-top: 30px;
+	margin-left: 70px;
+	margin-bottom: 20px;*/
+}
+.success{
+	width: 70px;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 30px;
+	color: white;
+	background-color: green;
+	border: none;
+	border: green;
+	padding: 5px;
+/*	margin-top: 30px;
+	margin-left: 70px;
+	margin-bottom: 20px;*/
+}
+.failed{
+	width: 70px;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 30px;
+	color: white;
+	background-color: red;
+	border: none;
+	border: red;
+	padding: 5px;
+/*	margin-top: 30px;
+	margin-left: 70px;
+	margin-bottom: 20px;*/
+}
+.dash{
+	font-size: 4vw;
+/*	margin-left: 200px;
+*/
+}
