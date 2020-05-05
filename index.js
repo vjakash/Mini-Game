@@ -103,7 +103,7 @@ document.getElementById("mainPageContainer").innerHTML="";
 	</div>
 	<div class="container-fluid">
 		<div class="row">
-				<div class="man col-xs-4  col-lg-4" id="man"><img src="1.jpg"></div>
+				<div class="man col-xs-4  col-lg-4" id="man"><img src="1.JPG"></div>
 				<div class="game col-xs-8 col-lg-8" id="game">
 					<div class="row">
 						<div class="placeHolder col-xs-6 col-lg-6" id="placeHolder" align="center"><span class="dash" id="dash"></span></div>
@@ -299,7 +299,7 @@ function validate(char){
 
 				}
 				var man=document.getElementById("man");
-				man.innerHTML="<img src='"+(defeat+1)+".jpg'>";
+				man.innerHTML="<img src='"+(defeat+1)+".JPG'>";
 		}
 		else{
 			var audio = new Audio('correct.mp3');
