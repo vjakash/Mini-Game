@@ -1,4 +1,5 @@
 body{
+		background-image:url(bg.JPG);
 }
 #hangHome{
 	border:none;
@@ -16,9 +17,7 @@ body{
 	height: 1000px;
 	background-image: url(bg.jpg);
 }*/
-body{
-	background-image: url("bg.JPG");
-}
+
 .container{
 	width: 80%;
 /*	margin-top:0px;
