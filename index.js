@@ -348,7 +348,7 @@ function validate(char){
 				wordSuccess=0;
 				defeat=0;
 				var man=document.getElementById("man");
-				man.innerHTML="<img src='"+(1)+".jpg'>";
+				man.innerHTML="<img src='"+(1)+".JPG'>";
 				if(position<level1[level].length){
 					space=true;
 					updateCurrentWord(position);
