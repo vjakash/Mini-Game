@@ -428,18 +428,17 @@ function nextWord(position){
 	}
 	dash.innerHTML=str;
 
-	var letter=document.getElementById("letters")
-	letter.innerHTML=""
+	var letter=document.getElementById("letters");
+	letter.innerHTML="";
 	for( let n=0;n<26;n++){
 		count++;
-		 var char=String.fromCharCode(65 + n);
+		var char=String.fromCharCode(65 + n);
 		// var btn=document.createElement("button")
 		// btn.id=char;
 		// btn.setAttribute("onclick","validate('"+char+"',"+position+")");
 		// btn.setAttribute("style","display:inline;");
 		// btn.setAttribute("class","gamebtn");
 		// btn.innerHTML=char;
-		//  letter.appendChild(btn);
 		 if(count==6){
 		 	// var br=document.createElement("br");
 		 	letter.innerHTML+="<br><br><button id='"+char+"' class='gamebtn' onclick='validate(`"+char+"`)' style='display:inline;'>"+char+"</button>&emsp;";
