@@ -432,7 +432,7 @@ function nextWord(position){
 	letter.innerHTML=""
 	for( let n=0;n<26;n++){
 		count++;
-		// var char=String.fromCharCode(65 + n);
+		 var char=String.fromCharCode(65 + n);
 		// var btn=document.createElement("button")
 		// btn.id=char;
 		// btn.setAttribute("onclick","validate('"+char+"',"+position+")");
