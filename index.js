@@ -185,11 +185,13 @@ document.getElementById("mainPageContainer").innerHTML="";
 		// btn.setAttribute("style","display:inline;");
 		// btn.setAttribute("class","gamebtn");
 		// btn.innerHTML=char;
-		 letter.innerHTML+="<button id='"+char+"' class='gamebtn' onclick='validate(`"+char+"`)' style='display:inline;'>"+char+"</button>&emsp;";
 		 if(count==6){
 		 	// var br=document.createElement("br");
 		 	letter.innerHTML+="<br><br><button id='"+char+"' class='gamebtn' onclick='validate(`"+char+"`)' style='display:inline;'>"+char+"</button>&emsp;";
 		 	count=1;
+		 }else{
+		 	letter.innerHTML+="<button id='"+char+"' class='gamebtn' onclick='validate(`"+char+"`)' style='display:inline;'>"+char+"</button>&emsp;";
+		 	
 		 }
 	}
 
